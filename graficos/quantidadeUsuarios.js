@@ -22,8 +22,7 @@ async function quantidadeUsuarios(){
         plot_bgcolor: getCSS('--bg-color'),
         paper_bgcolor: getCSS('--bg-color'),
         title: {
-            Text: 'Redes sociais com mais usuários no mundo',
-            x: 0,
+            text: 'Redes sociais com mais usuários no mundo',
             font: {
                 color: getCSS('--primary-color'),
                 family: getCSS('--font'),
@@ -35,7 +34,9 @@ async function quantidadeUsuarios(){
             title: {
                 text: 'nome das redes sociais',
                 font: {
-                    color: getCSS('--secondary-color')
+                    color: getCSS('--secondary-color'),
+                    family: getCSS('--font'),
+                    size: 16
                 }
             }
         },
@@ -44,7 +45,9 @@ async function quantidadeUsuarios(){
             title: {
                 text: 'bilhões de usuários ativos',
                 font: {
-                    color: getCSS('--secondary-color')
+                    color: getCSS('--secondary-color'),
+                    family: getCSS('--font'),
+                    size: 16
                 }
             }
         }
